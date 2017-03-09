@@ -7,6 +7,6 @@ make
 running
 
 ```
-docker run tim/nmap 
+docker -v /src:/tmp run tim/clamav clamscan -r /tmp 
 ```
 
